@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Capstone Project 4</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+
+	</head>
+	<body class="is-preload">
+		<script>
+			function darkTheme() {
+				var element = document.body;
+				element.classList.toggle("dark-mode");
+			}
+			
+		</script>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image Me"><img src="../images/Me.jpg" alt="" /></a>
+					<h1><strong>Nor Aza Binte Hussain</strong></h1>
+					<h1>Associate Data Analyst</h1>
+					<h1>Project Engineer (Offshore)</h1>
+					<h1>BSc Mechanical Engineering, NTU</h1>
+					<h1>Singapore</h1>
+				</div>
+				
+				<div class="col-6 col-12-small">
+					<input
+					type="checkbox"
+					id="dark-theme"
+					name="dark-theme"
+					onclick="darkTheme()">
+					<label for="dark-theme">Dark theme</label>
+				</div>
+				
+			</header>
+		
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<ul class="actions">
+							<li><a href="/index.html" data-inline="true" data-mini="true" class="button">Back to main page</a></li>
+						</ul>
+
+						<p style="text-align:right;">
+							<em>Created on 05th March 2021</em>
+						</p>
+
+						<header class="major">
+							<h1>Capstone Project 4</h1>
+							<h2>Predicting concrete strength</h2>
+						</header>
+						<p style="text-align:justify;">
+							
+							Finally at the halfway mark! We got to meet the great Python!(pun intended :)) Understanding the different 
+							libraries available was such a challenge. Troubleshooting proves to be a challenging feat as well!
+							But with my strong mathematical background (I'm a Mechanical engineer yo!), understanding the topics for 
+							Machine Learning is much easier.
+							<br><br>
+							For this capstone, we had 9 days or so to complete the project. Imagine the pain and stress amounting to
+							sleepless nights trying to get used to writing Python codes in order to churn out a proper report out.
+							<br><br>
+							Data Analytic is widely used in retail, finance, stocks industries and there are many use case used in ML.
+							Since I was secretly enjoying the maths trivias/lessons in class, I decided to see if there were any 
+							science related data for ML use case (not for computer vision). It is just a matter of time before data
+							analysis engulf each and every industry available on Earth :). Alas after a long search, I found a suitable
+							dataset - Concrete strength!
+							<br><br>
+							Having had some work experience dealing with concrete/cement, I could tap into my experience for background 
+							knowledge. It is always better to have some domain knowledge when picking out the dataset. Cement, the 
+							main raw material, along with water, ash, sand, aggregates and other raw materials are mixed together to form
+							concrete! In order to build bridges, buildings, shed etc, the strength required from the concrete differs. This 
+							cacn be done by mixing different quantities of the raw materials. As an engineer/operation team, having the 
+							correct mixing amount  with the correct concrete strength would definitely reduce the time required and reduce 
+							the amount of possible wastage of the raw materials. In turn, increase profitability.
+						</p>
+
+							<ul style="color:rgb(35, 211, 138)" style="list-style-type:square;">
+								<li>Business need: To predict the strength of concrete given the raw materials quantities</li>
+								<li>Tool used: Python (Pandas, Numpy, Matplotlib, Seaborn, Scipy), Jupyter Notebook, MS PowerPoint</li>
+								<li>Data file type: CSV file</li>
+								<li>Source: Concrete Strength Dataset <a href="https://archive.ics.uci.edu/ml/datasets/Concrete+Compressive+Strength
+									" style="color:rgb(165, 165, 7)" target="_blank">(UCI Machine Learning Repository)</a></li>
+								<li>Problem model: Regression</li>
+							</ul>
+						
+						<p  style="text-align:justify;">							
+							Dataset was loaded into python where data cleaning, transformation and EDA was performed.Then, split the 
+							data into training and testing sets. ML models adopted were:
+						</p>
+
+							<ol>
+								<li>Linear Regressor</li>
+								<li>Ridge Regressor</li>
+								<li>Lasso Regressor</li>
+								<li>Random Forest Regressor</li>
+								<li>SV Regressor</li>
+								<li>KNN Regressor</li>
+							</ol>
+						
+						<p  style="text-align:justify;">
+							Random Forest regressor came out tops performing extremely well with highest R2 score (0.873639) and lowest MSE (34.217022).
+							<br>
+
+							You can check out my work <a href="" style="color:red">here</a>! 😉
+							<br><br>
+
+							<a> 
+								<iframe src="https://onedrive.live.com/embed?cid=BD254566C8516969&amp;resid=BD254566C8516969%212067&amp;authkey=AK4_C8GcmwgLWns&amp;em=2&amp;wdAr=1.7777777777777777" width="610px" height="367px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> presentation, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+							</a>
+
+						</p>
+						<div class="ui-grid-a">
+							<div class="ui-block-a"><a href="/pages/projectshackathon.html" data-inline="true" data-mini="true" class="button">Back to Hackathon project</a></div>
+							<div class="ui-block-b"><a href="/pages/projectssummative.html" data-inline="true" data-mini="true" class="button">Next: Summative Capstone Project</a></div>	   
+						</div>
+
+						<ul class="actions">
+							<li><a href="/index.html" data-inline="true" data-mini="true" class="button">Back to main page</a></li>
+							<li><a href="/pages/projects5.html" data-inline="true" data-mini="true" class="button">Next: Summative Capstone Project</a></li>
+						</ul>
+					</p>
+					<fieldset class="ui-grid-a">
+						<div class="ui-block-a"><button type="submit" data-theme="c">Cancel</button></div>
+						<div class="ui-block-b"><button type="submit" data-theme="b">Submit</button></div>	   
+					</fieldset>
+
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons" style="font-size: 1.5rem;">
+					<li><a href="https://www.linkedin.com/in/nor-aza-hussain/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com/norazahussain/DAPortfolio-" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					<li><a href="noraza.hussain@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Nor Aza Hussain</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</footer>
+
+	<!-- Scripts -->
+		<script src="../assets/js/jquery.min.js"></script>
+		<script src="../assets/js/jquery.poptrox.min.js"></script>
+		<script src="../assets/js/browser.min.js"></script>
+		<script src="../assets/js/breakpoints.min.js"></script>
+		<script src="../assets/js/util.js"></script>
+		<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
+						
