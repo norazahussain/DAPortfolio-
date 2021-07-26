@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Capstone Project 3</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+
+	</head>
+	<body class="is-preload">
+		<script>
+			function darkTheme() {
+				var element = document.body;
+				element.classList.toggle("dark-mode");
+			}
+			
+		</script>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image Me"><img src="../images/Me.jpg" alt="" /></a>
+					<h1><strong>Nor Aza Binte Hussain</strong></h1>
+					<h1>Associate Data Analyst</h1>
+					<h1>Project Engineer (Offshore)</h1>
+					<h1>BSc Mechanical Engineering, NTU</h1>
+					<h1>Singapore</h1>
+				</div>
+				
+				<div class="col-6 col-12-small">
+					<input
+					type="checkbox"
+					id="dark-theme"
+					name="dark-theme"
+					onclick="darkTheme()">
+					<label for="dark-theme">Dark theme</label>
+				</div>
+				
+			</header>
+		
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<ul class="actions">
+							<li><a href="../index.html" data-inline="true" data-mini="true" class="button">Back to main page</a></li>
+						</ul>
+
+						<p style="text-align:right;">
+							<em>Created on 12th January 2021</em>
+						</p>						
+
+						<header class="major">
+							<h1>Capstone Project 3</h1>
+							<h2>How are the supermarkets faring?</h2>
+						</header>
+						<p style="text-align:justify;">
+							
+							For the next module, we learnt a new data analytic tool, Microsoft Power BI! It is one of the 
+							widely used tool to generate interactive reports. It is also similar to Tableau, Qlik just 
+							to name a few (gotta learn these on my own!) One think I like about Power BI is the 
+							drill-through function. It is such a handy function that gives the user the ability to 
+							filter through selective or all the pages.
+							<br><br>
+							In this capstone I decided to tackle on the Retail industry, supermarkets. I got my dataset 
+							from Kaggle (as usual ;p). It is a supermarket chain located in USA and Mexico. Since it has
+							many chains, as a business analyst for the company (Maven Market), I am interested to know
+							how the supermarket branches are faring in terms of sales/revenue generated. By knowing this, 
+							I would also be able to make a proposal to the management/operation team on which products 
+							or location are bringing in the money. This would allow the company to reposition itself 
+							by expanding or closure of the supermarkets.
+						</p>
+
+							<ul style="color:rgb(175, 132, 13)" style="list-style-type:square;">
+								<li>Business need: How to increase supermarket chain sales?</li>
+								<li>Tool used: MS Power BI</li>
+								<li>Data file type: CSV file</li>
+								<li>Source: Maven Market Dataset <a href="https://www.kaggle.com/ukveteran/maven-market-datasets"
+									style="color:rgb(5, 194, 228)" target="_blank">(Kaggle)</a></li>
+							</ul>
+						
+						<p  style="text-align:justify;">							
+							Data preparation <br>
+							Data was loaded into Power BI where data cleaning, transformation and EDA were performed. 
+							<br><br>
+							New columns/aggregated columns were made using DAX queries. DAX is similar to Excel's formulas.
+							Visualizations were also done in BI and drill-through was used as well as a mean to link up all 
+							the pages in the report.
+						</p>
+
+						<p>
+							You can check out my work <a href="" style="color:red">here</a>! 😉
+							<br><br>
+							<a>
+								<iframe src="../images/proj/MavenMarket_Final.pdf" width="610px" height="367px">
+								</iframe>
+								
+							</a>
+
+						
+							<div class="ui-grid-a">
+								<div class="ui-block-a"><a href="../pages/projects2.html" data-inline="true" data-mini="true" class="button">Back to Capstone Project 2</a></div>
+								<div class="ui-block-b"><a href="../pages/projectshackathon.html" data-inline="true" data-mini="true" class="button">Next: Hackathon Project</a></div>	   
+							</div>
+
+						</p>
+
+
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons" style="font-size: 1.5rem;">
+					<li><a href="https://www.linkedin.com/in/nor-aza-hussain/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com/norazahussain/DAPortfolio-" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					<li><a href="noraza.hussain@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Nor Aza Hussain</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</footer>
+
+	<!-- Scripts -->
+		<script src="../assets/js/jquery.min.js"></script>
+		<script src="../assets/js/jquery.poptrox.min.js"></script>
+		<script src="../assets/js/browser.min.js"></script>
+		<script src="../assets/js/breakpoints.min.js"></script>
+		<script src="../assets/js/util.js"></script>
+		<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
+						
